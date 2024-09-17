@@ -41,8 +41,8 @@ O contrato implementa as seguintes funcionalidades do padrão ERC-20:
    
 2.Crie um novo projeto Hardhat e inicialize:
 
-
 npx hardhat
+
 
 3.Adicione o contrato ao projeto na pasta contracts.
 4.Compile o contrato:
@@ -50,8 +50,8 @@ npx hardhat
 bash
 Copiar código
 npx hardhat compile
-Execute o script de deploy:
 
+5.Execute o script de deploy:
 javascript
 
 async function main() {
@@ -62,7 +62,8 @@ async function main() {
 }
 
 main();
-5.Execute o deploy:
+
+6..Execute o deploy:
 
 bash
 
@@ -76,6 +77,7 @@ Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
 6.Licença
+
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 perl
